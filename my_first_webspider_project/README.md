@@ -1,4 +1,5 @@
 这是一个利用requests库和re库来抓取猫眼电影top100的实例。
+数据使用json格式保存在同目录的txt文件中。
 目标站点URL:https://maoyan.com/board/4
 正则：
 <dd>.*?board-index.*?>(.*?)</i>.*?data-src="(.*?)".*?name.*?a.*?>(.*?)</a>.*?star.*?>(.*?)</p>.*?releasetime.*?>(.*?)</p>.*?integer.*?>(.*?)</i>.*?fraction.*?>(.*?)</i>.*?</dd>
