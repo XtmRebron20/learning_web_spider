@@ -5,12 +5,12 @@ Element.xpath('XPATH')
 from lxml import etree
 
 # 不规范的HTML文档
-# html = etree.parse('./learning_xpath&lxml/test.html', etree.HTMLParser()) 
+# html = etree.parse('./learning_lxml&xpath/test.html', etree.HTMLParser()) 
 # result = html.xpath('//*')
 # print(result)
 
 # 规范的HTML文档
-html = etree.parse('./learning_xpath&lxml/test2.html') 
+html = etree.parse('./learning_lxml&xpath/test2.html') 
 result = html.xpath('//*')
 print(result)
 
